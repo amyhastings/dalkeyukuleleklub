@@ -264,6 +264,20 @@ footer {
 @media (max-width: 800px) {
     .navlarge {
         display: none;
+
+        .logo {
+            display: flex;
+            height: 30vh;
+            line-height: 30vh;
+            justify-content: center;
+        }
+        
+        .logo a {
+            display: flex;
+            height: 30vh;
+            line-height: 30vh;
+            justify-content: center;
+        }
     }
     
 
@@ -276,11 +290,11 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .navsmall {
         display: none;
-    }
+    } */
     
 
 
-}
+
