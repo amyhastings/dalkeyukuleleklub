@@ -239,16 +239,61 @@ td, thead {
 footer {
     background-color: #000000;
     font-size: small;
-    height: 10vh;
     color: #FFFFFF;
-    text-align: center;
+    line-height: 1;
     width: 100%;
+}
+
+.footwrap {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 25px;
+    padding: 25px 25px 0 25px;
+    justify-content: center;
+}
+
+.footwrap p {
+    margin: 0;
+}
+
+.footwrap a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footwrap h5
+{
+    text-align: center;
+}
+
+dd {
+    margin: 0 10px;
+}
+
+.foot1 {
+    margin: 0 10%;
+}
+
+.foot2 {
+    margin: 0 10%;
+}
+
+.foot2 ul {
+    padding: 0;
+}
+
+.foot2 li {
+    list-style-type: none;
+}
+
+.foot2 li a {
+    text-decoration: underline;
 }
 
 .copy {
     display: flex;
     justify-content: center;
-    margin: 25px;
+    font-size:x-small;
 }
 
 @media (max-width: 768px) {
