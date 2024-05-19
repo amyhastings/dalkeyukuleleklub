@@ -39,14 +39,6 @@ header {
     display: none;
 }
 
-.buttons:hover #button1 {
-    display: none;
-}
-
-.buttons:hover #button2 {
-    display: block;
-}
-
 nav {
     background-color: #000000;
     color: #FFFFFF;
@@ -297,6 +289,17 @@ footer {
         padding: 25px;
     }
 }
+
+@media (min-width: 1024px) {
+    .buttons:hover #button1 {
+        display: none;
+    }
+    
+    .buttons:hover #button2 {
+        display: block;
+    }
+}
+
 
 
     
