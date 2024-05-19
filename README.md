@@ -7,9 +7,9 @@ This website for the Dalkey Ukulele Klub comprises my project for Module 1: Web 
 > Design, develop and publish a responsive web site using recommended design practices. Your web site will contain a home page and three content pages. Create an external style sheet (.css file) that configures text, colour and layout. No font tags, embedded CSS or inline CSS is allowed. You must publish your project to the Internet.
 >
 > Your website must be on one of the following topics:
-> ● Sport
-> ● Music
-> ● Comedy
+> - Sport
+> - Music
+> - Comedy
 
 I chose to prepare a website for a local music club, the Dalkey Ukulele Klub (the DUKs). The primary purpose of the website is to communicate information about the Dalkey Ukulele Klub (the DUKs) to prospective members (e.g. where they meet, what they do, where you can get in contact with them). An ancillary purpose of the website is to provide information about the DUKs to fans and also existing members of the Klub, such as future events and photographs of past events.
 
