@@ -35,6 +35,9 @@ header {
     justify-content: right;
 }
 
+/* The 'Join' button is an image that links to the 'Join' page. To add interactivity,
+I used the :hover pseudo-class to change the button image to a ukulele (#button2) on mouse-over.
+This occurs only on screens with a width greater than 1024 pixels. */
 #button2 {
     display: none;
 }
@@ -67,7 +70,8 @@ nav {
     transition: 1s;
 }
 
-/* This is the collapsible menu for viewing on smaller screens. Adapted from: https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390 */
+/* This is the collapsible menu for viewing on smaller screens. 
+Adapted from: https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390 */
 .navsmall {
     background-color: #000000;
     padding: 20px 30px;
@@ -334,6 +338,9 @@ dd {
         padding: 25px;
     }
 }
+/* Testing identified a known issue with functionality of the pseudo-class :hover
+for mobile devices using iOS. This was resolved by using a media query to remove the hover 
+effect for devices with a screen width of less than 1024 pixels. */
 
 @media (min-width: 1024px) {
     .buttons:hover #button1 {
