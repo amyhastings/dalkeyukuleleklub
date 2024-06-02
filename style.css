@@ -52,15 +52,6 @@ header {
     justify-content: center;
 }
 
-
-
-/* The 'Join' button is an image that links to the 'Join' page. To add interactivity,
-I used the :hover pseudo-class to change the button image to a ukulele (#button2) on mouse-over.
-This occurs only on screens with a width greater than 1024 pixels. */
-/* #button2 {
-    display: none;
-} */
-
 nav {
     background-color: #000000;
     color: #FFFFFF;
@@ -332,21 +323,10 @@ footer {
 
 @media (min-width: 768px) {
     .joinb a {
-        display: inline-block;
         height: 50px;
         width: 100px;
-        background-image: url("images/button.png");
         background-size: 100px 50px;
-        transition: background-image 0.5s;
-        margin: 3px 10px;
-        border-style: none;
-        background-repeat: no-repeat;
     }
-    
-    .joinb a:hover {
-        background-image: url("images/button2.png");
-    }
-
 
     .navsmall {
         display: none;
@@ -367,13 +347,6 @@ footer {
         border-style: none;
     }
 
-    /* .joinb img {
-        height: 50px;
-        margin: 3px 10px;
-        border-style: none; 
-        padding-right: 20px;  
-    } */
-
     .duk2 {
         display: none;
     }
@@ -385,45 +358,9 @@ footer {
         padding: 25px;
     }
 }
-/* Testing identified a known issue with functionality of the pseudo-class :hover
-for mobile devices using iOS. This was resolved by using a media query to remove the hover 
-effect for devices with a screen width of less than 1024 pixels. */
 
 @media (min-width: 1024px) {
-
-    .joinb a {
-        display: inline-block;
-        height: 50px;
-        width: 100px;
-        background-image: url("images/button.png");
-        background-size: 100px 50px;
-        transition: background-image 0.5s;
-        margin: 3px 10px;
-        border-style: none;
-        background-repeat: no-repeat;
-    }
-    
-    .joinb a:hover {
-        background-image: url("images/button2.png");
-    }
-    
-    /* .buttons:hover #button1 {
-        display: none;
-    }
-    
-    .buttons:hover #button2 {
-        display: block; */
-    /* } */
-
-    /* .buttons:hover img {
-        content: url("images/button2.png");
-    }
-
-    .buttons:hover {
-        transition: all 2s ease;
-    }
-
-
+   
     .duk1 {
         display: none;
     }
@@ -431,7 +368,7 @@ effect for devices with a screen width of less than 1024 pixels. */
     .duk2 {
         display: block;
         width: 100vw;
-    } */
+    }
 
 }
 
